@@ -45,9 +45,6 @@ jobs:
       - name: Run tests
         run: pnpm test
 
-      - name: "Show API"
-        run: echo "API is ${{ vars.WEATHER_API_KEY }}!"
-
       - name: Build static
         run: VITE_API_KEY=${{ vars.WEATHER_API_KEY }} pnpm build
 
