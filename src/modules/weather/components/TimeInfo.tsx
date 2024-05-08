@@ -2,6 +2,8 @@ import { MoonIcon, SunIcon } from '@heroicons/react/24/solid';
 import type { ITime } from '../type';
 import { getCurrentTimeByZone, getDateBySeconds } from '../utils/time';
 
+const b = 1;
+
 function TimeInfo(timeData: ITime) {
   const sunriseData = {
     icon: SunIcon,
