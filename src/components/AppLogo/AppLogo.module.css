@@ -1,0 +1,25 @@
+.sun-item {
+  animation: move-in 5s linear 0s infinite alternate;
+}
+
+@keyframes move-in {
+  from {
+    translate: 0% 0%;
+  }
+  to {
+    translate: 13% 8%;
+  }
+}
+
+.dark-animation {
+  animation: darkness 5s linear 0s infinite alternate;
+}
+
+@keyframes darkness {
+  from {
+    fill: #7ACAE7;
+  }
+  to {
+    fill: #606060;
+  }
+}
